@@ -1,15 +1,15 @@
 {
-  "name": "ejs-template-loader",
+  "name": "ejs-templates-loader",
   "version": "0.0.1",
   "description": "EJS loader module for webpack",
   "main": "index.js",
   "author": "iyonaga <yiyonaga@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/iyonaga/ejs-template-loader",
-  "bugs": "https://github.com/iyonaga/ejs-template-loadertes/issues",
+  "homepage": "https://github.com/iyonaga/ejs-templates-loader",
+  "bugs": "https://github.com/iyonaga/ejs-templates-loadertes/issues",
   "repository": {
     "type": "git",
-    "url": "git://github.com/iyonaga/ejs-template-loader.git"
+    "url": "git://github.com/iyonaga/ejs-templates-loader.git"
   },
   "keywords": [
     "ejs",

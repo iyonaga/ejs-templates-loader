@@ -1,10 +1,10 @@
-# ejs-template-loader
+# ejs-templates-loader
 EJS loader module for webpack
 
 ## Installation
 
 ```shell
-npm install --save ejs-template-loader
+npm install --save ejs-templates-loader
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ module: {
     {
       test: /\.ejs$/,
       use: {
-        loader: 'ejs-template-loader',
+        loader: 'ejs-templates-loader',
         options: {}
       }
     }
@@ -43,7 +43,7 @@ module: {
     {
       test: /\.ejs$/,
       use: {
-        loader: 'ejs-template-loader',
+        loader: 'ejs-templates-loader',
         options: {
           delimiter: '$'
         }
