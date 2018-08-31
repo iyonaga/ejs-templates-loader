@@ -1,0 +1,5 @@
+test/
+dist/
+idea/
+.editorconfig
+.eslintrc.json
