@@ -11,6 +11,11 @@
     "type": "git",
     "url": "git://github.com/iyonaga/ejs-template-loader.git"
   },
+  "keywords": [
+    "ejs",
+    "webpack",
+    "loader"
+  ],
   "scripts": {
     "lint": "eslint --ext .js,.jsx index.js --format codeframe",
     "lint:fix": "prettier-eslint --write index.js",
