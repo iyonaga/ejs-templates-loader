@@ -1,6 +1,6 @@
 {
   "name": "ejs-templates-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "EJS loader module for webpack",
   "main": "index.js",
   "author": "iyonaga <yiyonaga@gmail.com>",
