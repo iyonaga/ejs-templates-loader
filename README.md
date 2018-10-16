@@ -66,7 +66,7 @@ plugins: [
 <！DOCTYPE html>
 <html>
   <head>
-    <title><％= htmlWebpackPlugin.options.title％></title>
+    <title><％= htmlWebpackPlugin.options.title ％></title>
   </head>
   <body>
     <$- include('./_header', {foo: 'foo'}) $>
@@ -78,10 +78,6 @@ plugins: [
 
 ## Options
 - `delimiter` — Character to use with angle brackets for open/close (default: `"%"`)
-
-- `minify` — Enable/Disable minification (default: `false`)
-
-- `minifyOptions` — See [html-minifier#options-quick-reference](https://github.com/kangax/html-minifier#options-quick-reference) (default: `{}`)
 
 - `beautify` — Enable/Disable beautification (default: `false`)
 

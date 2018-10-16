@@ -28,7 +28,6 @@
   },
   "dependencies": {
     "ejs": "^2.6.1",
-    "html-minifier": "^3.5.20",
     "js-beautify": "^1.8.1",
     "loader-utils": "^1.1.0"
   },

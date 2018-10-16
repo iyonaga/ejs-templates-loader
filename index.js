@@ -1,7 +1,6 @@
 const loaderUtils = require('loader-utils');
 const ejs = require('ejs');
 const path = require('path');
-const htmlmin = require('html-minifier');
 const beautifyHtml = require('js-beautify').html;
 
 module.exports = function(content) {
@@ -30,11 +29,7 @@ module.exports = function(content) {
 
   let template = ejs.render(content, options);
 
-  if (options.minify) {
-    template = htmlmin.minify(template, options.minifyOptions || {});
-  }
-
-  if (!options.minify && options.beautify) {
+  if (options.beautify) {
     template = beautifyHtml(template, options.beautifyOptions || {});
   }
 
