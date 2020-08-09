@@ -66,11 +66,11 @@ plugins: [
 <！DOCTYPE html>
 <html>
   <head>
-    <title><％= htmlWebpackPlugin.options.title ％></title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
     <$- include('./_header', {foo: 'foo'}) $>
-    <img src="<％= require('./img/image.jpg') ％>">
+    <img src="<%= require('./img/image.jpg') %>">
     <$- include _footer $>
   </body>
 </html>
